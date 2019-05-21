@@ -1,0 +1,87 @@
+ body,html{
+    height: 100%;
+}
+.topnav{
+    background: rgba(4, 50, 60, 0.767);;
+    overflow: hidden; 
+}
+.topnav a{
+    float: left;
+    display: block;
+    Color: orange;
+    /* text-align: center   */
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+
+    
+}
+.topnav a:hover{
+    background-color: orange;
+    color: black;
+}
+.topnav a.active{
+    background-color: #f7B906;
+    color: floralwhite
+}
+div.hero-image{
+    background-image: url(../img/Ourcommunity\ HLA.jpg);
+    height: 90%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;  
+    position: relative;
+}
+div.hero-text{
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #f7B906
+
+}
+div.hero-text h1 { 
+    font-size: 3em;
+}
+div.hero-text a button {
+    color:orange;
+    margin-top: 20px;
+    border-color: orange ;
+    padding: 10px;
+    background: rgba(4, 50, 60, 0.767); ;
+}
+.demo-box{
+    background-color: rgba(0,0,0,0.5)
+}
+.description{
+    max-width: 600px;
+    text-align: center;
+    margin: auto;
+}
+.column{
+    float: left;
+    width: 33.33%;
+}
+.column img{
+    width: 100%;
+    height: auto;
+}
+.row{
+    text-align: center;
+    padding-bottom: 30px;
+}
+.row after{
+content: "";
+display: table;
+clear: both;
+}
+footer{
+    background:rgba(4, 50, 60, 0.767);
+    text-align: center;
+    margin-top: 80px;
+    padding: 50px;
+}
+footer p{
+    color: orange
+}
