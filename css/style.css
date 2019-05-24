@@ -42,7 +42,7 @@ div.hero-text{
 
 }
 div.hero-text h1 { 
-    font-size: 3em;
+    font-size: 2em;
 }
 div.hero-text a button {
     color:orange;
@@ -60,7 +60,6 @@ div.hero-text a button {
     margin: auto;
 }
 .column{
-    float: left;
     width: 33.33%;
 }
 .column img{
@@ -75,6 +74,9 @@ div.hero-text a button {
 content: "";
 display: table;
 clear: both;
+}
+.service { 
+    display: flex
 }
 footer{
     background:rgba(4, 50, 60, 0.767);
