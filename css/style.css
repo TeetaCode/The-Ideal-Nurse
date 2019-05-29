@@ -39,8 +39,7 @@ body,html{
 }
 
 div.hero-image{
-    /* background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('../img/OurcommunityHLA.jpg'); */
-    background-image: url(../img/nutrition\ variety.jpg); 
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('../img/OurcommunityHLA.jpg'); 
     height: 90%;
     background-position: center;
     background-repeat: no-repeat;
